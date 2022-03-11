@@ -6,9 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Conversor de temperatura</h1>
+        <p>Escolha entre Celsius(ºC), Fahrenheit(ºF) ou Kelvin(K) e faça a conversão.</p>
+    </header>
+    <main>
+        <form action="Converter()">
+            <div class="original">
+                <label for="converter">Insira o valor</label>
+                <input type="number" id="converter">
+            </div>
+            <div class="select">
+                <select id="unidade1" class="unidade1">
+                    <optgroup label="Unidade de medida">
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </optgroup>
+                </select>
+                <p>para</p>
+                <select id="unidade2" class="unidade2">
+                    <optgroup label="Unidade de medida">
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </optgroup>
+                </select>
+            </div>
+        </form>
+        <section>
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/xgeyogar.json"
+                trigger="loop"
+                colors="primary:#000000,secondary:#08a88a"
+                style="width:100px;height:100px">
+            </lord-icon>
+
+            <p class="resultado"></p>
+            <h2 class="conversão"></h2>
+        </section>
+        <button onclick="Converter()">Converter</button>
+    </main>
 
 </body>
 

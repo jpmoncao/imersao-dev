@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: black url(img/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    
+    margin-bottom: 2vh;
+    padding: 5px;
+    
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+header > h1 {
+    color: white;
+    font-size: 2.3em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header > p {
+    color: white;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+
+    margin: 40px 18vw;
+    min-width: 500px;
+    min-height: 500px;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.60);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.15);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.original  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.original > label {
+    font: normal 400 1.5em Poppins, sans-serif;
+    border-radius: 8px;
+}
+
+.original > input {
+    min-width: 10%;
+    border-radius: 8px;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.select p {
+    font: normal 400 1em Poppins, sans-serif;
+    padding: 0px 20px;
+}
+
+.select > select {
+    margin: 0px 5px;
+    font: italic 400 0.8em Poppins, sans-serif;
+}
+
+lord-icon {
+    transform: rotateX();
+}
