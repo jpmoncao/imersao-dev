@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background-image: linear-gradient(
+        236.85deg,
+        #041832 27.26%,
+        #3468a7 96.03%
+    );
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    background-color: #ecf4ff;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    color: #1c1c1c;
+    padding: 64px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto {
+    border-radius: 50%;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 2.32em;
+}
+
+.titulo h2 {
+    font-size: 1.5em;
+}
+
+.tema {
+    margin-left: 180px;
+    margin-top: 30px;
+    align-self: flex-start;
+}
+
+.tema button {
+    transition-duration: 0.5s;
+    background-color: transparent;
+    border: 2px solid #1c1c1c;
+    border-radius: 20px;
+    width: 120px;
+    height: 45px;
+    color: #1c1c1c;
+    font-family: Roboto, sans-serif;
+    font-size: 0.85em;
+    font-weight: 700;
+    padding: 12px;
+    outline: none;
+}
+
+.tema button:hover {
+    background-color: #1c1c1c;
+    color: #ecf4ff;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    background-image: linear-gradient(230deg, #499cfe 27.49%, #9cc8fc 83.19%);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.projetos-item {
+    list-style-type: none;
+    text-indent: 1.5pc;
+    line-height: 48px;
+}
+
+.projetos-item a {
+    text-decoration: none;
+}
+
+.projetos-item a:visited {
+    color: #1c1c1c;
+}
+
+/* dark theme */
+.dark {
+    transition-duration: 0.5s;
+    background-image: linear-gradient(236deg, #375b86 27%, #6b87a9 96%);
+}
+
+.dark .container {
+    background-color: #1c1c1c;
+    color: #ecf4ff;
+}
+
+.dark .tema button {
+    background-color: transparent;
+    border: 2px solid #ecf4ff;
+    color: #ecf4ff;
+}
+
+.dark .tema button:hover {
+    background-color: #ecf4ff;
+    color: #1c1c1c;
+}
+
+.dark .projetos-titulo {
+    color: #1c1c1c;
+}
+
+.dark .perfil-foto {
+    box-shadow: 0px 0px 8px #ecf4ff3e;
+    /*border: 2px solid #ecf4ff;*/
+}
