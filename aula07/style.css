@@ -7,31 +7,31 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     padding-bottom: 20vh;
-}
-
-.container {
+  }
+  
+  .container {
     text-align: center;
     padding: 20px;
-}
-
-.page-title {
+  }
+  
+  .page-title {
     color: #ffffff;
     margin: 5px 0;
-}
-
-button {
+  }
+  
+  button {
     padding: 0.8rem 1.5rem;
     margin: 1rem 0;
     border-radius: 5px;
     border: none;
     font-size: 1rem;
-}
-
-h2 {
+  }
+  
+  h2 {
     color: white;
-}
-
-#carta-jogador {
+  }
+  
+  #carta-jogador {
     width: 360px;
     height: 500px;
     overflow: auto;
@@ -40,34 +40,40 @@ h2 {
     margin: 0 auto;
     display: flex;
     align-items: flex-end;
-}
-
-#carta-jogador h3 {
+  }
+  
+  #carta-jogador h3 {
     text-align: center;
-}
-
-.carta-imagem {
+  }
+  
+  .carta-imagem {
     border: 1px solid black;
     height: 100px;
     margin: 10px;
-}
-
-.carta-imagem img {
+  }
+  
+  .carta-imagem img {
     width: 100%;
     height: 100%;
-}
-
-.carta-status {
+  }
+  
+  .carta-status {
     height: 160px;
     margin: 1.5rem;
-}
-
-.carta-status input {
+  }
+  
+  .carta-status input {
     margin: 20px 10px;
-}
-
-.opcoes {
+  }
+  
+  .opcoes {
     color: white;
     text-transform: capitalize;
     padding: 0px 15px;
-}
+  }
+  
+  #resultado {
+    color: white;
+    font-size: 2em;
+  }
+  
